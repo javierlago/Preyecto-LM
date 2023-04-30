@@ -1,0 +1,42 @@
+body{
+    background:url("fondoreserva.jpg") no-repeat center center fixed;;
+    background-size: cover;
+   
+}
+#freserva{
+    background:linear-gradient(to right, #b4a77cc9, #d6dbd6c9);
+    box-shadow: 10 10 0px black;
+    padding: 10px;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+   
+}
+/*Configuracion del boton de enviar metiendolo en un div*/
+#freserva .enviar{
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 5px;
+    display:flex ;
+}
+/*Estilo por defecto de el formulario*/
+#freserva form{
+    font-weight: bolder;
+    font-family: Verdana;
+    text-align: left;
+    font-size: xx-large;
+}
+
+#formulario label {
+    display: block;
+  }
+#freserva input {
+     float:right;
+   
+}
