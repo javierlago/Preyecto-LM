@@ -5,12 +5,16 @@ body {
 }
 
 h1 {
+  margin-bottom: 0.5px;
   text-align: center;
   color: black;
   font-family: Verdana;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px rgba(255, 246, 246, 0.6);
 }
 
 p {
+  margin-top: 0.5px;
   text-align: center;
   color: black;
   font-style: italic;
@@ -31,44 +35,94 @@ p {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  transition:  transform 0.1s;
-  margin-top:30px;
+  transition: transform 0.1s;
+  margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.411);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
 }
+
 #carta:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
-.tabla caption{
-font-size: large;
-font-style: Verdana;
-font-weight: bolder;
+.tabla caption {
+  margin-bottom: 25px;
+  font-size: large;
+  font-style: Verdana;
+  font-weight: bolder;
 }
 
+
+.tabla tr.pegado {
+  margin-top: 1px;
+}
 
 .tabla {
   width: 100%;
   height: 100%;
- }
+}
 
-.tabla td.arroz{
+.tabla td.arroz {
   font-size: 12px;
   text-align: center;
 }
-.tabla td.centrado{
-                      
+
+.tabla td.centrado {
+
   text-align: center;
   font-weight: bold;
 }
-.tabla td.precio{
+
+.tabla td.precio {
   font-weight: lighter;
   text-align: right;
 
 }
-.tabla td{
+
+.tabla td {
   font-family: Verdana;
   font-weight: bolder;
-  
-  
-  }
+
+
+}
+
+/* Estilo del boton de volver al inicio */
+#volver {
+  right: 10px;
+  top: 10px;
+  position: fixed;
+  padding: 25px;
+  text-align: center;
+  background: url(achabolavacio.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Verdana;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Verdana;
+
+  transition: transform 0.1s;
+
+
+}
+
+
+#volver:hover {
+  transform: scale(1.05);
+}
+
+#volver a {
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transform: rotate(-5deg);
+}
+
+/* ------------------------------------------------------------*/
