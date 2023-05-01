@@ -1,5 +1,5 @@
 body {
-  background-image: url(2020-05-24.jpg);
+  background-image: url(imagenes/2020-05-24.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -24,7 +24,7 @@ p {
 
 #carta {
 
-  background: linear-gradient(to right, #b4a77cc9, #d6dbd6c9), url("achabola.png");
+  background: linear-gradient(to right, #b4a77cc9, #d6dbd6c9), url("imagenes/achabola.png");
   background-repeat: no-repeat;
   background-position: center;
   border: 30px;
@@ -38,7 +38,10 @@ p {
   transition: transform 0.1s;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+
+}
+input[type="number"] {
+  width: fit-content; /* Establece el ancho en función del tamaño de un dígito */
 }
 
 #carta:hover {
@@ -65,12 +68,14 @@ p {
 .tabla td.arroz {
   font-size: 12px;
   text-align: center;
+  margin-left: 50%;
 }
 
 .tabla td.centrado {
 
   text-align: center;
   font-weight: bold;
+
 }
 
 .tabla td.precio {
@@ -93,7 +98,7 @@ p {
   position: fixed;
   padding: 25px;
   text-align: center;
-  background: url(achabolavacio.png);
+  background: url(imagenes/achabolavacio.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,6 +122,47 @@ p {
 }
 
 #volver a {
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transform: rotate(-5deg);
+}
+
+/* ------------------------------------------------------------*/
+/* ------------------------------------------------------------
+  Estilo para ir a reserva
+  */
+#volvercarta {
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  padding: 25px;
+  text-align: center;
+  background: url(imagenes/achabolavacio.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Verdana;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Verdana;
+  transition: transform 0.1s;
+
+
+}
+
+
+#volvercarta:hover {
+  transform: scale(1.05);
+}
+
+#volvercarta a {
   font-size: 15px;
   font-family: Verdana;
   font-weight: bold;

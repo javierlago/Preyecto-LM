@@ -3,6 +3,7 @@
 <head>
   <title>Formulario de Reserva</title>
   <link rel="stylesheet" type="text/css" href="estiloFormulario.css">
+ 
 </head>
 <body>
   <h1>Formulario de Reserva</h1>
@@ -13,16 +14,77 @@
     <input type="text" id="nombre" name="nombre" required><br>
 
     <label for="comensales">Número de comensales:</label>
-    <input type="number" id="comensales" name="comensales" required min="1"><br>
+    <input type="number" id="comensales" name="comensales" min="1" required  ><br>
 
     <label for="fecha">Fecha de reserva:</label>
     <input type="date" id="fecha" name="fecha" required><br>
 
     <label for="telefono">Número de teléfono:</label>
-    <input type="tel" id="telefono" name="telefono" required><br>
+    <input type="tel" id="telefono" name="telefono" size="9"required><br>
 
     <div class="enviar"><input class="Botonenviar"  type="submit" value="Enviar"></div>
   </form>
 </div>
+
+<div class="imagenes">
+  <p>Conoce nuestras instalaciones</p>
+
+<ul class="slider">
+<li id="slide1">
+  <img src="/imagenes/comedorabajo.jpg">
+</li> 
+<li id="slide2">
+  <img src="/imagenes/entrada.jpg">
+</li> 
+<li id="slide3">
+  <img src="/imagenes/saloncomedor.jpg">
+</li> 
+<li id="slide4">
+  <img src="/imagenes/terraza.jpg">
+</li> 
+<li id="slide5">
+  <img src="/imagenes/terrazaexterior.jpg">
+</li>
+<li id="slide6">
+  <img src="/imagenes/terrazaexterior2.jpg">
+</li>  
+
+</ul>
+
+<div class="botonespagina">
+<ul class="menu">
+  <li>
+    <a href="#slide1">1</a>
+  </li>
+  <li>
+    <a href="#slide2">2</a>
+  </li>
+  <li>
+    <a href="#slide3">3</a>
+  </li>
+  <li>
+    <a href="#slide4">4</a>
+  </li>
+  <li>
+    <a href="#slide5">5</a>
+  </li>
+  <li>
+    <a href="#slide6">6</a>
+  </li>
+  </ul>
+</div>
+</div>
+<div id="volver">
+  <a href="reserva.html">INICIO</a>
+  </div>
+</body>
+
+<div id="volvercarta">
+  <a href="Carta.html">CARTA</a>
+  </div>
+</body>
+
+
+
 </body>
 </html>
