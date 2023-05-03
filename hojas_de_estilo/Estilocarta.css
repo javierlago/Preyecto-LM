@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-image: url("../imagenes/2020-05-24.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Titulo{
+padding-top:100px;
+  margin-bottom: 0.5px;
+  text-align: center;
+  color: black;
+  font-family: Verdana;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(255, 246, 246, 0.6);
+}
+
+p {
+  margin-top: 0.5px;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font-family: Verdana;
+  font-size: small;
+}
+
+#carta {
+
+  background: linear-gradient(to right, #b4a77cc9, #d6dbd6c9), url("../imagenes/achabola.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  transition: transform 0.1s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+#carta:hover {
+  transform: scale(1.05);
+}
+
+.tabla caption {
+  margin-bottom: 25px;
+  font-size: large;
+  font-style: Verdana;
+  font-weight: bolder;
+}
+
+
+.tabla tr.pegado {
+  margin-top: 1px;
+}
+
+.tabla {
+  width: 100%;
+  height: 100%;
+}
+
+.tabla td.arroz {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 50%;
+}
+
+.tabla td.centrado {
+
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.tabla td.precio {
+  font-weight: lighter;
+  text-align: right;
+
+}
+
+.tabla td {
+  font-family: Verdana;
+  font-weight: bolder;
+
+
+}
+
+
+

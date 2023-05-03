@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+
+body{
+   
+    
+    background-image: url("../imagenes/bienvenida.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1{ 
+    box-shadow: 10px 10px 10px black;
+    padding: 6px;
+    border-radius: 4px;
+    width: fit-content;
+    text-align: center;
+    background: linear-gradient(to right, #b4a77cc9, #d6dbd6c9), url("../imagenes/achabola.png");
+    margin: auto;
+    margin-top: 110px;
+    font-size: 2.7em;}
+
+
+.contenedor{
+    
+ 
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Crea 3 columnas de tamaño igual */
+    grid-gap: 10px; /* Espacio entre los divs */
+    margin: 10px;
+    margin-top: 50px;
+    height: 500px;
+    
+    
+}
+
+.contenedor div {
+    grid-template-rows: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+  p{
+background-color: brown;
+border-radius: 5px;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+
+  }
+
+
+
+
+.boton{
+    margin: auto;
+    margin-top: 500px;
+    padding: 25px;
+    text-align: center;
+    background-image: url("../imagenes/achabolavacio.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana;
+    transition: transform 0.1s;
+    text-decoration: none;
+  
+
+}
+
+  
+.contenedor div a{
+font-size: 20px;
+text-decoration: none;
+transform: rotate(-5deg);
+color: black;
+
+  
+
+
+}
+
