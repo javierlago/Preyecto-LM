@@ -15,7 +15,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+div .tarjeta{
 
+  box-shadow: 5px 5px 1px black;
+}
 
 h1{ 
     box-shadow: 10px 10px 10px black;
@@ -30,17 +33,12 @@ h1{
 
 
 .contenedor{
-    
- 
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Crea 3 columnas de tamaño igual */
     grid-gap: 10px; /* Espacio entre los divs */
     margin: 10px;
     margin-top: 50px;
-    height: 500px;
-    
-    
+    height: inherit;
 }
 
 .contenedor div {
@@ -48,36 +46,26 @@ h1{
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: gray;
+    background:linear-gradient(to right, #b4a77ca2, #d6dbd649);
     padding: 10px;
     border-radius: 5px;
+   
+  }
+  div{
+    height: fit-content;
+   
   }
 
 
-  p{
-background-color: brown;
-border-radius: 5px;
-font-size: 30px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bolder;
-
-  }
-
-
-
-
-.boton{
+  div .boton{
     margin: auto;
-    margin-top: 500px;
-    padding: 25px;
     text-align: center;
-    background-image: url("../imagenes/achabolavacio.png");
+    background-image: url(../imagenes/achabolavacio.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     font-family: Verdana;
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -87,16 +75,35 @@ font-weight: bolder;
   
 
 }
+p.descripcion{
+ background: none;
+  margin-top: 10px;
+  font-size: 25px;
+  text-shadow:1px 1px 2px white;
+
+
+
+}
+ div p{
+font-size: 30px;
+background-color: brown;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+
+}
+
+
+
+
+
 
   
 .contenedor div a{
+display: flex;
 font-size: 20px;
 text-decoration: none;
-transform: rotate(-5deg);
 color: black;
-
-  
-
-
+transform: rotate(-5deg);
 }
 
