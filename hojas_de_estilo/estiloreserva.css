@@ -6,8 +6,9 @@
 }
 body{
   background-image: url("../imagenes/fondoreserva.jpg");
-  background-size: 100%;
+  background-size:200%;
   background-position: center;
+  background-position:center;
 
 }
 

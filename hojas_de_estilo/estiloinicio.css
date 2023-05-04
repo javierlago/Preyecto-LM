@@ -7,14 +7,17 @@
 
 
 
+      
+
 body{
-   
-    
-    background-image: url("../imagenes/bienvenida.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../imagenes/bienvenida.jpg");
+  background-size: 200%;  
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+
+
 div .tarjeta{
 
   box-shadow: 5px 5px 1px black;
@@ -57,7 +60,7 @@ h1{
   }
 
 
-  div .boton{
+  div.boton{
     margin: auto;
     text-align: center;
     background-image: url(../imagenes/achabolavacio.png);
@@ -72,9 +75,12 @@ h1{
     font-family: Verdana;
     transition: transform 0.1s;
     text-decoration: none;
-  
-
+    transition: transform 0.1s;
 }
+div.boton:hover {
+  transform: scale(1.2);
+}
+
 p.descripcion{
  background: none;
   margin-top: 10px;
